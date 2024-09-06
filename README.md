@@ -1,60 +1,60 @@
-# URL de la presentación
+# URL of the presentation
 
 https://www.canva.com/design/DAGP5nJUAxY/m7l7rDO35Mjbh2BHO891KQ/view?utm_content=DAGP5nJUAxY&utm_campaign=designshare&utm_medium=link&utm_source=editor
 
-# Descripción del proyecto.
+# Project Description.
 
-Este proyecto se centra en limpiar y analizar un conjunto de datos desordenado sobre ataques de tiburones utilizando técnicas de manipulación de datos (Data Wrangling) en Python. El objetivo final es preparar el conjunto de datos para un análisis exploratorio y responder a hipótesis específicas sobre los patrones y tendencias en los ataques de tiburones. La limpieza incluye la eliminación de valores nulos, duplicados, manipulación de strings, y más.
-
-
-# Hipótesis.
-Durante el proyecto, formulamos las siguientes hipótesis para guiar nuestro proceso de análisis:
-- Los ataques de tiburones ocurren con mayor frecuencia en ciertas ubicaciones geográficas.
-- Los tiburones atacan más a personas que realizan actividades acuáticas como el surf o el buceo.
-- Los ataques de tiburones son más comunes en hombres que en mujeres.
+This project focuses on cleaning and analysing a messy dataset on shark attacks using Data Wrangling techniques in Python. The ultimate goal is to prepare the dataset for exploratory analysis and to answer specific hypotheses about patterns and trends in shark attacks. Cleaning includes removing null values, duplicates, string manipulation, and more.
 
 
-# Estructura del proyecto.
-El proyecto se dividió en las siguientes fases:
-- Análisis inicial del dataset:
-  - Cargar el dataset en Python y revisar su estructura.
-  - Identificar problemas como valores nulos, datos duplicados, y la necesidad de formatear   
-    columnas.
+# Hypotheses.
+During the project, we formulated the following hypotheses to guide our analysis process:
+- Shark attacks occur more frequently in certain geographic locations.
+- Sharks attack more people who engage in aquatic activities such as surfing or diving.
+- Shark attacks are more common in men than in women.
+
+
+# Project structure.
+The project was divided into the following phases:
+- Initial analysis of the dataset:
+  - Load the dataset into Python and review its structure.
+  - Identify problems such as null values, duplicate data, and the need for column formatting.   
+    columns.
  
-- Limpieza de datos: Aplicar al menos cinco técnicas de limpieza de datos.
-  - Eliminación de valores nulos y duplicados.
-  - Formateo de strings para asegurar la coherencia.
-  - Estandarización de las columnas para facilitar el análisis.
-  - Revisión y manipulación de columnas que contienen fechas.
+- Data cleaning: Apply at least five data cleaning techniques.
+  - Elimination of null values and duplicates.
+  - String formatting to ensure consistency.
+  - Standardisation of columns to facilitate analysis.
+  - Review and manipulation of columns containing dates.
  
-- Análisis Exploratorio de Datos (EDA):
-  - Realizamos un análisis exploratorio para validar las hipótesis utilizando técnicas de agregación y visualización de datos en distintos gráficos.
+- Exploratory Data Analysis (EDA):
+  - We performed exploratory analysis to validate hypotheses using aggregation techniques and data visualisation in different graphs.
 
-- Presentación de resultados:
-  - Los resultados fueron presentados a través de una narrativa clara que destaca los hallazgos más relevantes y visualizaciones que ilustran las tendencias identificadas.
+- Presentation of results:
+  - Results were presented through a clear narrative highlighting the most relevant findings and visualisations illustrating identified trends.
 
-# Estructura de archivos:
-- main.ipynb: Cuaderno de Jupyter con todo el código de limpieza y análisis.
-- functions.py: Archivo Python que contiene funciones reutilizables para la limpieza de datos.
-- README.md: Documentación del proyecto.
+# File structure:
+- main.ipynb: Jupyter notebook with all the cleanup and analysis code.
+- functions.py: Python file containing reusable functions for data cleansing.
+- README.md: Project documentation.
 
-# Tecnologías utilizadas.
-- Lenguaje de programación: Python
-- Librerías principales: 
-  - pandas: Para manipulación y limpieza de datos.
-  - matplotlib y seaborn: Para la creación de visualizaciones.
+# Technologies used.
+- Programming language: Python
+- Main libraries: 
+  - pandas: For data manipulation and cleaning.
+  - matplotlib and seaborn: For the creation of visualisations.
 
-# Resultados.
-- Hipótesis 1: Confirmada. Los ataques de tiburones son más frecuentes en zonas costeras de Estados Unidos de America, Australia y Sudáfrica.
-- Hipótesis 2: Confirmada a medias. Las personas que practican surf tienen una mayor probabilidad de sufrir un ataque de tiburón. En cambio, no hemos podido confirmar la hipótesis de que las personas que 
-  practican buceo tengan más probabilidades.
-- Hipótesis 3: Confirmada. Los hombres son más propensos a sufrir ataques de tiburón. 
+# Results.
+- Hypothesis 1: Confirmed. Shark attacks are more frequent in coastal areas of the United States of America, Australia and South Africa.
+- Hypothesis 2: Half confirmed. Surfers are more likely to be attacked by sharks. On the other hand, we have not been able to confirm the hypothesis that people who 
+  that people who scuba dive are more likely to have a shark attack.
+- Hypothesis 3: Confirmed. Men are more likely to be attacked by sharks. 
   
-# Conclusiones.
-El análisis de los datos de ataques de tiburones permitió identificar patrones importantes que pueden ser útiles para empresas que venden experiencias acuáticas, como tours de buceo o clases de surf. 
+# Conclusions.
+Analysis of the shark attack data identified important patterns that may be useful for businesses selling aquatic experiences, such as diving tours or surfing lessons. 
 
-# Equipo.
-Este proyecto fue realizado por: 
+# Team.
+This project was carried out by: 
 - Alejandro Alegre 
 - Haridian Lugo Morays 
 - José Miguel Sánchez
